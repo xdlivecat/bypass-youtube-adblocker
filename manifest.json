@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Bypass YouTube Adblocker",
+    "version": "1.0",
+    "description": "This removes YouTube's annoying popup telling you to turn your ad blocker off and also resumes the video for you",
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "action": {
+      "default_icon": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
