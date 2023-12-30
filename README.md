@@ -12,6 +12,9 @@ Bypass Youtube Ad Blocker is an extension that lets you bypass the Youtube Adblo
 
 This extension is available for download from the Firefox Addons store. https://addons.mozilla.org/en-US/firefox/addon/bypass-youtube-adblocker/
 
+# Credits
+
+Development - Hauber_RBLX
 
 # Development
 
